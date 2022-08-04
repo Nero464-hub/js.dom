@@ -1,0 +1,32 @@
+form{
+    display: flex;
+    flex-direction: column;
+    /* width: 100px; */
+    gap: 20px;
+    color: blueviolet;
+    font-size: large;
+}
+label{
+    display: flex;
+    gap: 10px;
+    height: 30px;
+}
+input{
+    border:1px solid blueviolet;
+}
+button{
+    font-size: large;
+    /* margin-left: 5px; */
+    border: none;
+    background-color: white;
+    color: blueviolet;
+}
+.btn1, .btn2{
+    width: 100px;
+    margin-left: 100px;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 20px;
+    height: 30px;
+    color: white;
+}
